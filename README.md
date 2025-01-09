@@ -35,7 +35,7 @@ KeyCap-Step_2U-H.stl
 ![Screenshot](image/image_Wiring_MX_rows.png)
 ダイオードの向きに注意して、キースイッチを横方向にハンダ付けして接続します。\
 \
-![Screenshot](image/image_image_Wiring_MX_cols.png)
+![Screenshot](image/image_Wiring_MX_cols.png)
 ショートしないように配慮しながら、キースイッチを縦方向にハンダ付けして接続します。\
 \
 ![Screenshot](image/image_Wiring_Pin_cols.png)
