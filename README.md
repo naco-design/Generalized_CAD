@@ -20,7 +20,8 @@ Vialに対応したファームウェアでキー設定をカスタマイズす�
 * カスタマイズしやすいように、3Dプリンターで製造したい。
 * 大きさは、はがきサイズ（148*100mm）程度を目指す。
 
-## 3Dプリント用STLファイル（ケース、キーキャップ）
+## 部品
+### 3Dプリント用STLファイル（ケース、キーキャップ）
 [ケース](Cases)\
 Case_v2025-01.stl\
 LED-Plate.stl\
@@ -30,6 +31,16 @@ ProMicro_Lock.stl\
 KeyCap-Step_1U.stl\
 KeyCap-Step_1.5U.stl\
 KeyCap-Step_2U-H.stl
+
+### 購入部品
+ProMicro USB-C\
+CherryMXと互換性のあるキースイッチ\
+ダイオード\
+WS2812のLEDテープ\
+タクトスイッチ\
+配線用電線\
+PC接続用USBケーブル\
+熱圧入インサートナットM3
 
 ## 配線
 ![Screenshot](image/image_Wiring_MX_rows.png)
@@ -45,4 +56,19 @@ KeyCap-Step_2U-H.stl
 横方向の接続線をProMicroのピンにハンダ付けします。\
 \
 ![Screenshot](image/image_Wiring_Pin_SW_LED.png)
-リセット用タクトスイッチとWS2812LEDをProMicroのピンにハンダ付けします。
+リセット用タクトスイッチとWS2812LEDをProMicroのピンにハンダ付けします。\
+目視や配線を揺らしてみたりして部品が外れないかを確認します。\
+回路部分は、テスターなどでショートや接続不良がないかなどを確認すると良いでしょう。
+
+## ファームウェアの書き込み
+[ファームウェア](Firmware)
+コンパイル済みVial対応ファームウェア\
+naco_design_generalized_cad_vial.hex　をダウンロードします。\
+\
+Chromeで　[Pro Micro Web Updaterのサイト](https://sekigon-gonnoc.github.io/promicro-web-updater/index.html) を開きます。\
+「ファイルを選択」のボタンからnaco_design_generalized_cad_vial.hexを開き、flashボタンをクリックします。\
+「対応したデバイスが見つかりませんでした。」と表示されますので、リセット用タクトスイッチを押します。\
+Arduino Microがあらわれるので、接続をクリック。ファームウェアが書き込まれます。
+
+## 動作確認やカスタマイズ
+[Vialのサイト](https://get.vial.today/)を開き、Start Vial Webから動作の確認やキー設定の変更が行えます。
