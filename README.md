@@ -26,6 +26,8 @@ Vialに対応したファームウェアでキー設定をカスタマイズす�
 Case_v2025-01.stl\
 LED-Plate.stl\
 ProMicro_Lock.stl\
+BackPanel.stl\
+レーザー加工の場合は BackPlate.ai\
 \
 [キーキャップ](Keycaps)\
 KeyCap-Step_1U.stl\
@@ -33,14 +35,19 @@ KeyCap-Step_1.5U.stl\
 KeyCap-Step_2U-H.stl
 
 ### 購入部品
-ProMicro USB-C\
-CherryMXと互換性のあるキースイッチ\
-ダイオード\
-WS2812のLEDテープ\
-タクトスイッチ\
-配線用電線\
-PC接続用USBケーブル\
-熱圧入インサートナットM3
+参考としてAmazonの商品ページへのリンクも記載します。\
+こちらで検証したものと同様の製品と思われるものを載せてはいますが、\
+ロットや在庫などにより製品が異なるかもしれませんので注意してください。\
+\
+ProMicro ATmega32U4 USB-C [Amazon](https://www.amazon.co.jp/dp/B0B87D2FXZ)\
+CherryMXと互換性のあるキースイッチ [Amazon](https://www.amazon.co.jp/dp/B0BYYWF14B)\
+ダイオード [Amazon](https://www.amazon.co.jp/dp/B0BRQ5NNZS)\
+WS2812のLEDテープ [Amazon](https://www.amazon.co.jp/dp/B088JWT7VT)\
+タクトスイッチ [Amazon](https://www.amazon.co.jp/dp/B011XXVI80)\
+配線用電線 [Amazon](https://www.amazon.co.jp/dp/B07GGZQXSF)\
+熱圧入インサートナットM3 [Amazon](https://www.amazon.co.jp/dp/B09NNPWRH8)\
+PC接続用USBケーブル [Amazon](https://www.amazon.co.jp/dp/B071D8THD2)\
+クッションシール [Amazon](https://www.amazon.co.jp/dp/B01B4COI8W)
 
 ## 配線
 ![Screenshot](image/image_Wiring_MX_rows.png)
