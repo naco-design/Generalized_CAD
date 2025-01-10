@@ -1,6 +1,8 @@
 # Generalized_CAD
 Generalized CAD Assistant Device, This is a programmable macro pad!
-![Screenshot](image/image_Key-Step.png)
+\
+![Screenshot](image/image_Key-Flat.png)
+キーの上面がFlatになるデータの場合のイメージ
 
 ## 汎用型CAD（CADアシスタントデバイス）
 CAD作業を行いやすくするための補助デバイス（マクロパッド）の制作データです。\
@@ -21,7 +23,7 @@ Vialに対応したファームウェアでキー設定をカスタマイズす�
 * 大きさは、はがきサイズ（148*100mm）程度を目指す。
 
 ## 部品
-### 3Dプリント用STLファイル（ケース、キーキャップ）
+### 3Dプリント用STL/STEPファイル（ケース、キーキャップ）
 [ケース](Cases)\
 Case_v2025-01.stl\
 LED-Plate.stl\
@@ -30,9 +32,10 @@ BackPanel.stl\
 レーザー加工の場合は BackPlate.ai\
 \
 [キーキャップ](Keycaps)\
-KeyCap-Step_1U.stl\
-KeyCap-Step_1.5U.stl\
-KeyCap-Step_2U-H.stl
+キーの上面がFlatになるデータとStepになるデータがあります。\
+\
+![Screenshot](image/image_Key-Step.png)
+キーの上面がStepになるデータの場合のイメージ
 
 ### 購入部品
 参考としてAmazonの商品ページへのリンクも記載します。\
